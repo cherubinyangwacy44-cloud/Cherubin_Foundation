@@ -1,38 +1,61 @@
 body{
     text-align: center;
     background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
 }
-
+.logo{
+    display: flex;
+    padding-left: 30px;
+}
+.my_logo{
+    background-color: #8b3a3a;
+    padding: auto;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+}
 .AA{
-    font-size:80px;
+    font-size:30px;
     font-style: italic;
+    padding-left: 30px;
 }
 .YY{
-
-display: flex;
-justify-content: space-evenly;
-width: 20%;
-font-size: 30px;
-font-weight: lighter;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: auto 0;
+    width: 25%;
 }
 .YY a{
     text-decoration: none;
-    color:#8b3a3a
+    color:#8b3a3a;
+        padding-right: 30px;
+
+
 }
 .YY:hover a{
 
     color:red;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .ZZ{
 
     display:flex;
     justify-content: space-between;
-
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.483);
+    top: 5px;
+    left: 0;
+    width: 100%;
+    border-radius: 30px;
+}
+main{
+    padding-top: 50px;
 }
 .SS{
-
+    margin-top: 40px;
     font-size: 45px;
 }
 .BB{
