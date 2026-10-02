@@ -24,7 +24,7 @@ body{
     font-size: 30px;
     font-weight: lighter;
     margin: auto 0;
-    width: 25%;
+    width: 40%;
 }
 .YY a{
     text-decoration: none;
@@ -33,7 +33,7 @@ body{
 
 
 }
-.YY:hover a{
+.YY a:hover {
 
     color:red;
     font-weight: bold;
